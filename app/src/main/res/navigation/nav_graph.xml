@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.codinginflow.LMUapp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_lsf2"
+            app:destination="@id/lsf2" />
+        <action
+            android:id="@+id/action_homeFragment_to_uni2work"
+            app:destination="@id/uni2work" />
+        <action
+            android:id="@+id/action_homeFragment_to_moodle"
+            app:destination="@id/moodle" />
+        <action
+            android:id="@+id/action_homeFragment_to_raumfinder"
+            app:destination="@id/raumfinder" />
+        <action
+            android:id="@+id/action_homeFragment_to_lmuseite"
+            app:destination="@id/lmuseite" />
+        <action
+            android:id="@+id/action_homeFragment_to_friesten"
+            app:destination="@id/friesten" />
+        <action
+            android:id="@+id/action_homeFragment_to_anforderungen"
+            app:destination="@id/anforderungen" />
+        <action
+            android:id="@+id/action_homeFragment_to_shop"
+            app:destination="@id/shop" />
+        <action
+            android:id="@+id/action_homeFragment_to_news1"
+            app:destination="@id/news1" />
+        <action
+            android:id="@+id/action_homeFragment_to_news2"
+            app:destination="@id/news2" />
+        <action
+            android:id="@+id/action_homeFragment_to_news3"
+            app:destination="@id/news3" />
+        <action
+            android:id="@+id/action_homeFragment_to_mainActivity1"
+            app:destination="@id/mainActivity1" />
+        <action
+            android:id="@+id/action_homeFragment_to_bibliothekAlgemain"
+            app:destination="@id/bibliothekAlgemain" />
+        <action
+            android:id="@+id/action_homeFragment_to_mensaAlgemain"
+            app:destination="@id/mensaAlgemain" />
+        <action
+            android:id="@+id/action_homeFragment_to_studentenwerk1"
+            app:destination="@id/studentenwerk1" />
+        <action
+            android:id="@+id/action_homeFragment_to_fakultaten"
+            app:destination="@id/fakultaten" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.codinginflow.LMUapp.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="username"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="example.com/login/{username}" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.codinginflow.LMUapp.WelcomeFragment"
+        android:label="{username}"
+        tools:layout="@layout/fragment_welcome">
+        <argument
+            android:name="username"
+            app:argType="string" />
+        <argument
+            android:name="password"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_accountFragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.codinginflow.LMUapp.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/termsFragment"
+        android:name="com.codinginflow.LMUapp.TermsFragment"
+        android:label="Terms &amp; Conditions"
+        tools:layout="@layout/fragment_terms" />
+    <action
+        android:id="@+id/action_global_termsFragment"
+        app:destination="@id/termsFragment"
+        app:enterAnim="@anim/slide_in_top"
+        app:exitAnim="@anim/slide_out_bottom"
+        app:popEnterAnim="@anim/slide_in_bottom"
+        app:popExitAnim="@anim/slide_out_top" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.codinginflow.LMUapp.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_search_to_web"
+            app:destination="@id/search_to_web" />
+        <action
+            android:id="@+id/action_searchFragment_to_software"
+            app:destination="@id/software" />
+    </fragment>
+    <activity
+        android:id="@+id/lsf2"
+        android:name="com.codinginflow.LMUapp.lsf"
+        android:label="fragment_lsf"
+        tools:layout="@layout/fragment_lsf" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.codinginflow.LMUapp.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_plan"
+            app:destination="@id/plan" />
+    </fragment>
+    <fragment
+        android:id="@+id/fieldFragment"
+        android:name="com.codinginflow.LMUapp.FieldFragment"
+        android:label="FieldFragment" />
+    <activity
+        android:id="@+id/uni2work"
+        android:name="com.codinginflow.LMUapp.uni2work"
+        android:label="uni2work" />
+    <activity
+        android:id="@+id/moodle"
+        android:name="com.codinginflow.LMUapp.moodle"
+        android:label="fragment_moodle"
+        tools:layout="@layout/fragment_moodle" />
+    <activity
+        android:id="@+id/raumfinder"
+        android:name="com.codinginflow.LMUapp.raumfinder"
+        android:label="fragment_raumfinder"
+        tools:layout="@layout/fragment_raumfinder" />
+    <activity
+        android:id="@+id/lmuseite"
+        android:name="com.codinginflow.LMUapp.lmuseite"
+        android:label="fragment_lmuseite"
+        tools:layout="@layout/fragment_lmuseite" />
+    <fragment
+        android:id="@+id/friesten"
+        android:name="com.codinginflow.LMUapp.Friesten"
+        android:label="fragment_friesten"
+        tools:layout="@layout/fragment_friesten" >
+        <action
+            android:id="@+id/action_friesten_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anforderungen"
+        android:name="com.codinginflow.LMUapp.Anforderungen"
+        android:label="fragment_anforderungen"
+        tools:layout="@layout/fragment_anforderungen" >
+        <action
+            android:id="@+id/action_anforderungen_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/shop"
+        android:name="com.codinginflow.LMUapp.shop"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop" />
+    <activity
+        android:id="@+id/news1"
+        android:name="com.codinginflow.LMUapp.news1"
+        android:label="fragment_news1"
+        tools:layout="@layout/fragment_news1" />
+    <activity
+        android:id="@+id/news2"
+        android:name="com.codinginflow.LMUapp.news2"
+        android:label="fragment_news2"
+        tools:layout="@layout/fragment_news2" />
+    <activity
+        android:id="@+id/news3"
+        android:name="com.codinginflow.LMUapp.news3"
+        android:label="fragment_news3"
+        tools:layout="@layout/fragment_news3" />
+    <activity
+        android:id="@+id/mainActivity1"
+        android:name="com.codinginflow.LMUapp.MainActivity1"
+        android:label="MainActivity1" />
+    <activity
+        android:id="@+id/bibliothekAlgemain"
+        android:name="com.codinginflow.LMUapp.BibliothekAlgemain"
+        android:label="BibliothekAlgemain" />
+    <activity
+        android:id="@+id/mensaAlgemain"
+        android:name="com.codinginflow.LMUapp.MensaAlgemain"
+        android:label="MensaAlgemain" />
+    <activity
+        android:id="@+id/studentenwerk1"
+        android:name="com.codinginflow.LMUapp.studentenwerk1"
+        android:label="studentenwerk1" />
+    <activity
+        android:id="@+id/fakultaten"
+        android:name="com.codinginflow.LMUapp.fakultaten"
+        android:label="fakultaten" />
+    <activity
+        android:id="@+id/search_to_web"
+        android:name="com.codinginflow.LMUapp.search_to_web"
+        android:label="search_to_web" />
+    <fragment
+        android:id="@+id/plan"
+        android:name="com.codinginflow.LMUapp.plan"
+        android:label="plan" >
+        <action
+            android:id="@+id/action_plan_to_plan_to_web"
+            app:destination="@id/plan_to_web2" />
+        <action
+            android:id="@+id/action_plan_to_auswahl_von_vorlesungen"
+            app:destination="@id/auswahl_von_vorlesungen" />
+    </fragment>
+    <activity
+        android:id="@+id/plan_to_web2"
+        android:name="com.codinginflow.LMUapp.plan_to_web"
+        android:label="plan_to_web" />
+    <fragment
+        android:id="@+id/auswahl_von_vorlesungen"
+        android:name="com.codinginflow.LMUapp.auswahl_von_vorlesungen"
+        android:label="auswahl_von_vorlesungen" >
+        <action
+            android:id="@+id/action_auswahl_von_vorlesungen_to_plan_to_web2"
+            app:destination="@id/plan_to_web2" />
+    </fragment>
+    <fragment
+        android:id="@+id/software"
+        android:name="com.codinginflow.LMUapp.software"
+        android:label="software" />
+    <fragment
+        android:id="@+id/mensa"
+        android:name="com.codinginflow.LMUapp.Mensa"
+        android:label="Mensa" />
+</navigation>

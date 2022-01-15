@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/ic_baseline_feedback_24.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/ic_baseline_work_24.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/ic_home.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/ic_search.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/drawable/lmu_siegel.xml" value="0.5708333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/activity_detail.xml" value="0.3328125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/activity_detail1.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/activity_main1.xml" value="0.3328125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/bibliothek_cell.xml" value="0.4088541666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/bibliothek_detail.xml" value="0.4088541666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/bibliothek_registrirung.xml" value="0.1952887537993921" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/biblothek_algemain.xml" value="0.4088541666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/content_uni2work.xml" value="0.6666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fakultaten.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_account.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_anforderungen.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_anforderungen2.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_auswahl_von_vorlesungen.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_bibliothek.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_field.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_first.xml" value="0.3328125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_friesten.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_home.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_lmuseite.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_lsf.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_mensa.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_moodle.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_news1.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_news2.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_news3.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_onlinekatalog.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_plan.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_plan_to_web.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_raumfinder.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_search.xml" value="0.1362559241706161" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_search_to_web.xml" value="0.160081053698075" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_serch_to_web.xml" value="0.290625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_settings.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_shop.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_software.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_speisekarte.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_studentenwerk.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_terms.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_uni2work.xml" value="0.32037037037037036" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/fragment_welcome.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/google_seite.xml" value="0.290625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/mensa_algemain.xml" value="0.38564273789649417" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/mensa_algemein.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/mensa_cell.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/mensa_detail.xml" value="0.5546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/opac.xml" value="0.5036458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/shape1_cell.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/shape_cell.xml" value="0.3328125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/studentenwerk1.xml" value="0.12864583333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/layout/vorlesung_beispiel.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/menu/drawer_bottom_nav_menu.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/menu/drawer_left_side_nav_menu.xml" value="0.5078125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NavigationComponentTutorial-Part-9_Redirecting-URLs-With-Implicit-Deep-Links/app/src/main/res/menu/options_menu.xml" value="0.33229166666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

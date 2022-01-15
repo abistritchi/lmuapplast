@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/button_news1"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:background="@drawable/news1"/>
+
+            <ImageButton
+                android:id="@+id/button_news2"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:background="@drawable/news2"/>
+
+            <ImageButton
+                android:id="@+id/button_news3"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:background="@drawable/news3"/>
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="News N4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="News N5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="News N6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="News N7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="News N8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="News N9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Web"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button_uni2work"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="uni2work" />
+
+            <Button
+                android:id="@+id/button_lsf"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-70dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="lsf" />
+            <Button
+                android:id="@+id/button_moodle"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="moodle" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Another"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button_mensa"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="mensa" />
+
+            <Button
+                android:id="@+id/button_raumfinder"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-70dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="raumfinder" />
+
+            <Button
+                android:id="@+id/button_bibliothek"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="bibliothek" />
+
+            <Button
+                android:id="@+id/button_studentenwerk"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-70dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="studentenwerk" />
+
+            <Button
+                android:id="@+id/button_lmuseite"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="lmu seite" />
+
+            <Button
+                android:id="@+id/button_friesten"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-70dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="friesten" />
+
+            <Button
+                android:id="@+id/button_anforderungen"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="anforderungen" />
+
+            <Button
+                android:id="@+id/button_shop"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-70dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="lmu shop" />
+
+            <Button
+                android:id="@+id/button_fakultaten"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="Fakultaten" />
+
+            <Button
+                android:id="@+id/button_"
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="-70dp"
+                android:layout_marginLeft="200dp"
+                android:background="@color/colorButton"
+                android:textColor="@color/colorText"
+                android:text="Fakultaten" />
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Home Screen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Home Screen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Home Screen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Home Screen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Home Screen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Home Screen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
