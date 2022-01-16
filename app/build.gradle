@@ -4,15 +4,15 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: "androidx.navigation.safeargs.kotlin"
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 29
     buildToolsVersion '32.0.0'
 
     defaultConfig {
         applicationId "com.codinginflow.navigationcomponenttutorial"
-        minSdkVersion 31
-        targetSdkVersion 31
+        minSdkVersion 19
+        targetSdkVersion 29
         versionCode 1
-        versionName "2021.1.1"
+        versionName "2021.3.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

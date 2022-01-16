@@ -14,8 +14,8 @@ class WelcomeFragment : Fragment(R.layout.fragment_welcome) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        text_view_username.text = args.username
-        text_view_password.text = args.password
+        //text_view_username.text = args.username
+        //text_view_password.text = args.password
 
         button_ok.setOnClickListener {
             val action = WelcomeFragmentDirections.actionWelcomeFragmentToAccountFragment()

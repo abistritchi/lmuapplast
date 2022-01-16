@@ -24,6 +24,11 @@
     <item
         android:id="@+id/plan"
         android:icon="@drawable/ic_baseline_work_24"
-        android:title="@string/bottom_mensa"/>
+        android:title="@string/bottom_plan"/>
+
+    <item
+        android:id="@+id/account"
+        android:icon="@android:drawable/ic_secure"
+        android:title="@string/bottom_account"/>
 
 </menu>

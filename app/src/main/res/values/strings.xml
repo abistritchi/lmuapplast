@@ -4,7 +4,7 @@
     <string name="bottom_custom">Custom</string>
     <string name="bottom_field">Field</string>
     <string name="bottom_account">Account</string>
-    <string name="bottom_mensa">Mensa</string>
+    <string name="bottom_plan">Plan</string>
     <string name="home_fragment">Welcome to Home menu!</string>
     <string name="account_fragment">Welcome to Account menu!</string>
     <string name="field_fragment">Welcome to Field menu!</string>
