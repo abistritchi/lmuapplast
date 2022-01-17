@@ -62,18 +62,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             findNavController().navigate(action)
         }
 
-        button_news1.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToNews1()
-            findNavController().navigate(action)
-        }
-        button_news2.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToNews2()
-            findNavController().navigate(action)
-        }
-        button_news3.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToNews3()
-            findNavController().navigate(action)
-        }
+
         button_fakultaten.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToMainActivity1()
             findNavController().navigate(action)
