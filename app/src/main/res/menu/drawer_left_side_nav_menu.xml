@@ -7,19 +7,36 @@
         android:title="Home" />
 
     <item
+        android:id="@+id/mensaAlgemain"
+        android:icon="@android:drawable/ic_lock_idle_charging"
+        android:title="Mensa"/>
+
+    <item
+        android:id="@+id/raumfinder"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Raumfinder"/>
+
+    <item
+        android:id="@+id/bibliothekAlgemain"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:title="Bibliothek" />
+
+    <item
+        android:id="@+id/mail"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="E-Mail" />
+
+
+    <item
         android:id="@+id/searchFragment"
         android:icon="@drawable/ic_search"
-        android:title="Search" />
+        android:title="Usefull links" />
 
     <item
         android:id="@+id/fieldFragment"
         android:icon="@drawable/ic_baseline_feedback_24"
         android:title="@string/bottom_field"/>
 
-    <item
-        android:id="@+id/accountFragment"
-        android:icon="@drawable/ic_baseline_account_box_24"
-        android:title="@string/bottom_account"/>
 
     <item
         android:id="@+id/plan"
@@ -27,7 +44,7 @@
         android:title="@string/bottom_plan"/>
 
     <item
-        android:id="@+id/account"
+        android:id="@+id/loginFragment"
         android:icon="@android:drawable/ic_secure"
         android:title="@string/bottom_account"/>
 

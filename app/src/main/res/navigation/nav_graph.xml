@@ -135,11 +135,11 @@
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" >
         <action
-            android:id="@+id/action_accountFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
-        <action
             android:id="@+id/action_accountFragment_to_plan"
             app:destination="@id/plan" />
+        <action
+            android:id="@+id/action_accountFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/fieldFragment"
@@ -257,4 +257,8 @@
         android:id="@+id/mensa"
         android:name="com.codinginflow.LMUapp.Mensa"
         android:label="Mensa" />
+    <activity
+        android:id="@+id/mail"
+        android:name="com.codinginflow.LMUapp.mail"
+        android:label="mail" />
 </navigation>

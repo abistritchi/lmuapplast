@@ -59,13 +59,14 @@ class Mensa : Fragment() {
             }
     }
 
+    /**
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         button_onlinekatalog.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToMensaAlgemain();
-            //val action = MensaAlgemainDirections.actionBibliothekToOnlinekatalog();
             findNavController().navigate(action)
         }
     }
+    **/
 }

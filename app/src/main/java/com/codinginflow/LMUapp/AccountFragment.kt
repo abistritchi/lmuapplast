@@ -15,21 +15,6 @@ class AccountFragment : Fragment(R.layout.fragment_account) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        button_login.setOnClickListener {
-            val action = AccountFragmentDirections.actionAccountFragmentToLoginFragment()
-            findNavController().navigate(action)
-        }
-
-        button_studienplan.setOnClickListener {
-            val action = AccountFragmentDirections.actionAccountFragmentToPlan()
-            findNavController().navigate(action)
-        }
-
-        //button_google.setOnClickListener {
-        //    SearchFragment.web_adress = "https://google.de/"
-        //    val action = SearchFragmentDirections.actionSearchFragmentToSearchToWeb()
-        //    findNavController().navigate(action)
-        //}
 
     }
 }
