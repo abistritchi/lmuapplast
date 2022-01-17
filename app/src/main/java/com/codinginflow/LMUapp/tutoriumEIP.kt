@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.fragment_site_exemple.*
 import kotlinx.android.synthetic.main.fragment_tutorium_e_i_p.*
 
 
-class tutoriumEIP : Fragment() {
+class tutoriumEIP : Fragment(R.layout.fragment_tutorium_e_i_p) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 

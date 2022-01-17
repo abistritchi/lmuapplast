@@ -9,4 +9,6 @@
     <color name="colorPassed">#7EBD7E</color>
     <color name="colorRegisted">#EFCC51</color>
     <color name="colorNotregisted">#FF5C5C</color>
+    <color name="colorlightGrey">#888888</color>
+    <color name="colorduskYellow">#EDD766</color>
 </resources>
