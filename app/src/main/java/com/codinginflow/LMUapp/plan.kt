@@ -18,8 +18,8 @@ class plan : Fragment(R.layout.fragment_plan) {
         super.onViewCreated(view, savedInstanceState)
 
         button5.setOnClickListener {
-            web_adress = "https://www.medien.ifi.lmu.de/lehre/ws2021/eip/"
-            val action = planDirections.actionPlanToPlanToWeb()
+            //web_adress = "https://www.medien.ifi.lmu.de/lehre/ws2021/eip/"
+            val action = planDirections.actionPlanToSiteExemple()
             findNavController().navigate(action)
         }
 

@@ -135,9 +135,6 @@
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" >
         <action
-            android:id="@+id/action_accountFragment_to_plan"
-            app:destination="@id/plan" />
-        <action
             android:id="@+id/action_accountFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
     </fragment>
@@ -236,6 +233,9 @@
         <action
             android:id="@+id/action_plan_to_auswahl_von_vorlesungen"
             app:destination="@id/auswahl_von_vorlesungen" />
+        <action
+            android:id="@+id/action_plan_to_site_exemple"
+            app:destination="@id/site_exemple" />
     </fragment>
     <activity
         android:id="@+id/plan_to_web2"
@@ -261,4 +261,22 @@
         android:id="@+id/mail"
         android:name="com.codinginflow.LMUapp.mail"
         android:label="mail" />
+    <fragment
+        android:id="@+id/site_exemple"
+        android:name="com.codinginflow.LMUapp.site_exemple"
+        android:label="fragment_site_exemple"
+        tools:layout="@layout/fragment_site_exemple" >
+        <action
+            android:id="@+id/action_site_exemple_to_tutoriumEIP"
+            app:destination="@id/tutoriumEIP" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutoriumEIP"
+        android:name="com.codinginflow.LMUapp.tutoriumEIP"
+        android:label="fragment_tutorium_e_i_p"
+        tools:layout="@layout/fragment_tutorium_e_i_p" >
+        <action
+            android:id="@+id/action_tutoriumEIP_to_site_exemple"
+            app:destination="@id/site_exemple" />
+    </fragment>
 </navigation>
