@@ -64,41 +64,61 @@
             android:layout_marginLeft="13dp"
             android:orientation="vertical" >
 
-            <ImageButton
-                android:id="@+id/button_news11"
-                android:layout_width="200dp"
-                android:layout_height="250dp"
-                android:background="@drawable/news1"/>
 
-            <ImageButton
-                android:id="@+id/button_news21"
-                android:layout_width="200dp"
-                android:layout_height="250dp"
-                android:background="@drawable/news2"/>
+            <Button
+                android:id="@+id/button_field_button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#A64646"
+                android:text="Deadline: EIP Blatt 10 am 21.01.2021"/>
+            <Button
+                android:id="@+id/button_field_button_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="LMU News: LMU-Statistiker Helmut Küchenhoff spricht am 25.01. im Rahmen der „KI Lectures“"/>
+            <Button
+                android:id="@+id/button_field_button_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="LMU News: Dynamik von Mega-Erdbeben und Tsunamis aufgedeckt"/>
+            <Button
+                android:id="@+id/button_field_button_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Softwaretechnik: Sie konnen nun „Blat 11 “ heruntenladen"/>
+            <Button
+                android:id="@+id/button_field_button_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#49A646"
+                android:text="MMP22: new Forum Thema : 	„Abschlussprojekt - mehrere Scenes“"/>
+            />
+            <Button
+                android:id="@+id/button_field_button_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
+            <Button
+                android:id="@+id/button_field_button_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
+            <Button
+                android:id="@+id/button_field_button_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
+            <Button
+                android:id="@+id/button_field_button_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"/>
 
-            <ImageButton
-                android:id="@+id/button_news31"
-                android:layout_width="200dp"
-                android:layout_height="250dp"
-                android:background="@drawable/news3"/>
-
-            <ImageButton
-                android:id="@+id/button_news41"
-                android:layout_width="200dp"
-                android:layout_height="250dp"
-                android:background="@drawable/news1"/>
-
-            <ImageButton
-                android:id="@+id/button_news51"
-                android:layout_width="200dp"
-                android:layout_height="250dp"
-                android:background="@drawable/news2"/>
-
-            <ImageButton
-                android:id="@+id/button_news61"
-                android:layout_width="200dp"
-                android:layout_height="250dp"
-                android:background="@drawable/news3"/>
         </LinearLayout>
     </ScrollView>
 

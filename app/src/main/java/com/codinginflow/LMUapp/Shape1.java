@@ -26,6 +26,12 @@ class Shape1
     public String getAdresse() {
         return adresse;
     }
+    public String getName1() {
+        return name1;
+    }
+    public String getZeit() {
+        return zeit_mensa;
+    }
 
     public void setId1(String id) {
         this.id1 = id;
@@ -33,19 +39,9 @@ class Shape1
     public void setAdresse(String adresse) {
         this.adresse = adresse;
     }
-
-    public String getName1() {
-        return name1;
-    }
-
     public void setName1(String name) {
         this.name1 = name;
     }
-
-    public String getZeit() {
-        return zeit_mensa;
-    }
-
     public void setImage1(int image) {
         this.zeit_mensa = zeit_mensa;
     }

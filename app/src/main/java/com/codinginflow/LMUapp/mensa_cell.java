@@ -27,12 +27,12 @@ public class mensa_cell extends ArrayAdapter<Shape1>
         {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.mensa_detail, parent, false);
         }
-        TextView tv1 = (TextView) convertView.findViewById(R.id.shape1Name);
-        TextView iv1 = (TextView) convertView.findViewById(R.id.shape1Image);
-        TextView adresse = (TextView) convertView.findViewById(R.id.mensa_adresse);
+        //TextView tv1 = (TextView) convertView.findViewById(R.id.shape1Name);
+        //TextView iv1 = (TextView) convertView.findViewById(R.id.shape1Image);
+        TextView adresse = (TextView) convertView.findViewById(R.id.shape1adresse);
 
-        tv1.setText(shape1.getName1());
-        iv1.setText(shape1.getZeit());
+        //tv1.setText(shape1.getName1());
+        //iv1.setText(shape1.getZeit());
         adresse.setText(shape1.getAdresse());
 
 

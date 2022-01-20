@@ -59,7 +59,7 @@ public class MensaAlgemain extends AppCompatActivity implements OnMapReadyCallba
                 "\n" +
                 "Fr               11.00 - 14.00\n" +
                 "\n" +
-                "Bezahlart: Legic-Karte", "https://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_411_-de.html#heute", "adresse 1");
+                "Bezahlart: Legic-Karte", "https://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_411_-de.html#heute", "");
         shapeList1.add(mensaLeopoldstrasse);
 
         Shape1 mensaArcisstrasse = new Shape1("8","Mensa Arcisstraße", "Öffnungszeiten\n" +
@@ -71,7 +71,7 @@ public class MensaAlgemain extends AppCompatActivity implements OnMapReadyCallba
                 "Fr                11.00 - 13:30", "https://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_421_-de.html#heute", "Arcisstr. 12, 80333 München");
         shapeList1.add(mensaArcisstrasse);
 
-        Shape1 mensaArcisstrasseBistro = new Shape1("9","StuBistroMensa Arcisstraße", "9.00-16.00", "", "adresse 1");
+        Shape1 mensaArcisstrasseBistro = new Shape1("9","StuBistroMensa Arcisstraße", "9.00-16.00", "", "");
         shapeList1.add(mensaArcisstrasseBistro);
 
         Shape1 mensaGarching = new Shape1("10","Mensa Garching", "11.00 - 14.00", "https://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html#heute", "Boltzmannstraße 19, 85748 Garching");

@@ -29,9 +29,11 @@ public class ShapeAdapter1 extends ArrayAdapter<Shape1>
         }
         TextView tv = (TextView) convertView.findViewById(R.id.shape1Name);
         TextView iv = (TextView) convertView.findViewById(R.id.shape1Image);
+        TextView adresse = (TextView) convertView.findViewById(R.id.shape1adresse);
 
         tv.setText(shape1.getName1());
         iv.setText(shape1.getZeit());
+        adresse.setText(shape1.getAdresse());
 
 
         return convertView;

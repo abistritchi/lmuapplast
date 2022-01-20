@@ -29,12 +29,12 @@ public class mensa_detail extends AppCompatActivity
 
     private void setValues1()
     {
-        TextView tv1 = (TextView) findViewById(R.id.shapeName1);
-        TextView iv1 = (TextView) findViewById(R.id.shape1Image);
-        TextView adresse = (TextView) findViewById(R.id.mensa_adresse);
+        //TextView tv1 = (TextView) findViewById(R.id.shapeName1);
+        //TextView iv1 = (TextView) findViewById(R.id.shape1Image);
+        //TextView adresse = (TextView) findViewById(R.id.shape1adresse);
 
-        tv1.setText(selectedShape1.getName1());
-        iv1.setText(selectedShape1.getZeit());
-        adresse.setText(selectedShape1.getAdresse());
+        //tv1.setText(selectedShape1.getName1());
+        //iv1.setText(selectedShape1.getZeit());
+        //adresse.setText(selectedShape1.getAdresse());
     }
 }

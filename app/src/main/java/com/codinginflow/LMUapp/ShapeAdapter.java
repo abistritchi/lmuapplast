@@ -35,6 +35,7 @@ public class ShapeAdapter extends ArrayAdapter<Shape>
         iv.setImageResource(shape.getImage());
 
 
+
         return convertView;
     }
 }

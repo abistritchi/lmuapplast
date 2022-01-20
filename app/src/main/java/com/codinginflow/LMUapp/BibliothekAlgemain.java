@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
@@ -103,7 +104,7 @@ public class BibliothekAlgemain extends AppCompatActivity implements OnMapReadyC
         });
 
         //Get a place at the bibliothek
-        final ImageButton registration = findViewById(R.id.bibliothek_platz_regiestrierung2);
+        final Button registration = findViewById(R.id.bibliothek_platz_regiestrierung2);
         registration.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -115,7 +116,7 @@ public class BibliothekAlgemain extends AppCompatActivity implements OnMapReadyC
         });
 
 
-        final ImageButton opac = findViewById(R.id.opac_bibliothek);
+        final Button opac = findViewById(R.id.opac_bibliothek);
         opac.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

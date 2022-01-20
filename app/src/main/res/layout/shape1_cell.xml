@@ -6,14 +6,14 @@
     android:background="@color/colorAccent">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
         android:id="@+id/shape1Name"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_marginLeft="20dp"
         android:gravity="center_vertical"
         android:text="shape1 name"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20dp"
-        android:layout_marginLeft="20dp"/>
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/shape1Image"
@@ -22,5 +22,14 @@
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:id="@+id/shape1adresse"
+        android:layout_width="197dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="193dp"
+        android:text="adresse mensa 1" />
 
 </RelativeLayout>

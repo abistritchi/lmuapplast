@@ -15,20 +15,20 @@
         android:layout_height="150dp"
         tools:ignore="MissingConstraints" />-->
 
-    <ImageButton
+    <Button
         android:id="@+id/opac_bibliothek"
         android:layout_width="410dp"
         android:layout_height="100dp"
-        app:srcCompat="@android:drawable/ic_input_add"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="150dp" />
+        tools:layout_editor_absoluteY="150dp"
+        android:text="OPAC - Online Bibliothek"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/bibliothek_platz_regiestrierung2"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:srcCompat="@android:drawable/ic_menu_myplaces"
+        android:text="Reservierungssystem der Universitätsbibliothek der LMU"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="150dp" />
