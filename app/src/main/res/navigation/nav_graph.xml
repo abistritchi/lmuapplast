@@ -19,6 +19,15 @@
         <action
             android:id="@+id/action_homeFragment_to_home_to_web2"
             app:destination="@id/home_to_web2" />
+        <action
+            android:id="@+id/action_homeFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mensaAlgemain2"
+            app:destination="@id/mensaAlgemain2" />
+        <action
+            android:id="@+id/action_homeFragment_to_bibliothekAlgemain2"
+            app:destination="@id/bibliothekAlgemain2" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -97,7 +106,11 @@
     <fragment
         android:id="@+id/fieldFragment"
         android:name="com.codinginflow.LMUapp.FieldFragment"
-        android:label="FieldFragment" />
+        android:label="FieldFragment" >
+        <action
+            android:id="@+id/action_fieldFragment_to_home_to_web2"
+            app:destination="@id/home_to_web2" />
+    </fragment>
     <fragment
         android:id="@+id/friesten"
         android:name="com.codinginflow.LMUapp.Friesten"
@@ -185,4 +198,19 @@
         android:name="com.codinginflow.LMUapp.home_to_web"
         android:label="fragment_home_to_web"
         tools:layout="@layout/fragment_home_to_web" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.codinginflow.LMUapp.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+    <activity
+        android:id="@+id/mensaAlgemain2"
+        android:name="com.codinginflow.LMUapp.MensaAlgemain"
+        android:label="mensa_algemain"
+        tools:layout="@layout/mensa_algemain" />
+    <activity
+        android:id="@+id/bibliothekAlgemain2"
+        android:name="com.codinginflow.LMUapp.BibliothekAlgemain"
+        android:label="biblothek_algemain"
+        tools:layout="@layout/biblothek_algemain" />
 </navigation>

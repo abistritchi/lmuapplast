@@ -19,7 +19,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         object : CountDownTimer(1000000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
-                val s = millisUntilFinished/10000
+                val s = millisUntilFinished/20000
                 if (button_weather_home!=null){
                     if ((s % 10).mod(2)!=0){
                         button_weather_home.setImageResource(R.drawable.weather)
@@ -67,11 +67,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             findNavController().navigate(action)
         }
         button_bibliothek.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToBibliothekAlgemain()
+            val action = HomeFragmentDirections.actionHomeFragmentToBibliothekAlgemain2()
             findNavController().navigate(action)
         }
         button_mensa.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToMensaAlgemain()
+            val action = HomeFragmentDirections.actionHomeFragmentToMensaAlgemain2()
             findNavController().navigate(action)
         }
         button_lmuseite.setOnClickListener {
@@ -112,6 +112,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         button_weather_home.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
+            findNavController().navigate(action)
+        }
+
+        button_HomeMap.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToMapsFragment()
             findNavController().navigate(action)
         }
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.codinginflow.LMUapp">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 <application
@@ -10,8 +11,7 @@
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <meta-data android:name="com.google.android.geo.API_KEY" android:value="your API key"/>
-
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
 
     <activity android:name="com.codinginflow.LMUapp.MainActivity"
         android:exported="true">
@@ -31,12 +31,6 @@
             android:value="@integer/google_play_services_version" />
     </activity>
 
-    <activity android:name="com.codinginflow.LMUapp.lsf"/>
-    <activity android:name="com.codinginflow.LMUapp.uni2work"/>
-    <activity android:name="com.codinginflow.LMUapp.moodle"/>
-    <activity android:name="com.codinginflow.LMUapp.raumfinder"/>
-    <activity android:name="com.codinginflow.LMUapp.lmuseite"/>
-    <activity android:name="com.codinginflow.LMUapp.shop"/>
     <activity android:name="com.codinginflow.LMUapp.onlinekatalog"/>
     <activity android:name="com.codinginflow.LMUapp.news1"/>
     <activity android:name="com.codinginflow.LMUapp.news2"/>
@@ -49,9 +43,7 @@
     <activity android:name="com.codinginflow.LMUapp.mensa_detail"/>
     <activity android:name="com.codinginflow.LMUapp.MensaAlgemain"/>
     <activity android:name="com.codinginflow.LMUapp.bibliothek_registrierung"/>
-    <activity android:name="com.codinginflow.LMUapp.studentenwerk1"/>
     <activity android:name="com.codinginflow.LMUapp.opac"/>
-    <activity android:name="com.codinginflow.LMUapp.fakultaten"/>
     <activity android:name="com.codinginflow.LMUapp.search_to_web"/>
     <activity android:name="com.codinginflow.LMUapp.plan_to_web"/>
     <activity android:name=".mail"/>
@@ -60,4 +52,3 @@
 </application>
 
 </manifest>
-
