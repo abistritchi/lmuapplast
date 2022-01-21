@@ -22,6 +22,9 @@ class FieldFragment : Fragment(R.layout.fragment_field) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
+
+
         button_news1.setOnClickListener {
             SearchFragment.web_adress = "https://www.lmu.de/de/newsroom/newsuebersicht/news/auf-immerwiedersehen.html"
             val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()

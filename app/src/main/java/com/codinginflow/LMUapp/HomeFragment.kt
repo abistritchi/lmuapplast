@@ -19,7 +19,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         object : CountDownTimer(1000000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
-                val s = millisUntilFinished/20000
+                val s = millisUntilFinished/5000
                 if (button_weather_home!=null){
                     if ((s % 10).mod(2)!=0){
                         button_weather_home.setImageResource(R.drawable.weather)

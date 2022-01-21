@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.findNavController()
 
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.homeFragment, R.id.mensaAlgemain, R.id.accountFragment, R.id.fieldFragment),
+            setOf(R.id.homeFragment, R.id.mensaAlgemain2, R.id.accountFragment, R.id.fieldFragment),
             drawer_layout
         )
 
