@@ -21,11 +21,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             override fun onTick(millisUntilFinished: Long) {
                 val s = millisUntilFinished/10000
                 if (button_weather_home!=null){
-                    if ((s % 10).mod(2)==0){
+                    if ((s % 10).mod(2)!=0){
                         button_weather_home.setImageResource(R.drawable.weather)
                         SearchFragment.web_adress = "https://www.accuweather.com/en/de/munich/80331/weather-forecast/178086"
                     }
-                    if ((s % 10).mod(2)!=0) {
+                    if ((s % 10).mod(2)==0) {
                         button_weather_home.setImageResource(R.drawable.lmu_building)
                         SearchFragment.web_adress = "https://www.lmu.de/de/index.html"
                     }
@@ -43,23 +43,27 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }.start()
 
         button_uni2work.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToUni2work()
+            SearchFragment.web_adress = "https://uni2work.ifi.lmu.de"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
         button_lsf.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToLsf2()
+            SearchFragment.web_adress = "https://lsf.verwaltung.uni-muenchen.de"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
         button_moodle.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToMoodle()
+            SearchFragment.web_adress = "https://moodle.lmu.de/"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
 
         button_raumfinder.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToRaumfinder()
+            SearchFragment.web_adress = "https://www.lmu.de/raumfinder/#/"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
         button_bibliothek.setOnClickListener {
@@ -71,41 +75,42 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             findNavController().navigate(action)
         }
         button_lmuseite.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToLmuseite()
+            SearchFragment.web_adress = "https://lmu.de"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
         button_studentenwerk.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToStudentenwerk1()
+            SearchFragment.web_adress = "https://www.studentenwerk-muenchen.de/"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
         button_friesten.setOnClickListener {
+            SearchFragment.web_adress = "https://www.lmu.de/de/die-lmu/struktur/fakultaeten/index.html"
             val action = HomeFragmentDirections.actionHomeFragmentToFriesten()
             findNavController().navigate(action)
         }
+
         button_anforderungen.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToAnforderungen()
             findNavController().navigate(action)
         }
         button_shop.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToShop()
+            SearchFragment.web_adress = "https://lmu-shop.de/"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
 
         button_fakultaten.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToMainActivity1()
+            SearchFragment.web_adress = "https://www.lmu.de/de/die-lmu/struktur/fakultaeten/index.html"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
-        button_fakultaten.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToFakultaten()
-            findNavController().navigate(action)
-        }
 
 
         button_weather_home.setOnClickListener {
-            //SearchFragment.web_adress = "https://www.accuweather.com/en/de/munich/80331/weather-forecast/178086"
             val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }

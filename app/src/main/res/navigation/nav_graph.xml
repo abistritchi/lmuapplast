@@ -11,53 +11,11 @@
         android:label="Home"
         tools:layout="@layout/fragment_home">
         <action
-            android:id="@+id/action_homeFragment_to_lsf2"
-            app:destination="@id/lsf2" />
-        <action
-            android:id="@+id/action_homeFragment_to_uni2work"
-            app:destination="@id/uni2work" />
-        <action
-            android:id="@+id/action_homeFragment_to_moodle"
-            app:destination="@id/moodle" />
-        <action
-            android:id="@+id/action_homeFragment_to_raumfinder"
-            app:destination="@id/raumfinder" />
-        <action
-            android:id="@+id/action_homeFragment_to_lmuseite"
-            app:destination="@id/lmuseite" />
-        <action
             android:id="@+id/action_homeFragment_to_friesten"
             app:destination="@id/friesten" />
         <action
             android:id="@+id/action_homeFragment_to_anforderungen"
             app:destination="@id/anforderungen" />
-        <action
-            android:id="@+id/action_homeFragment_to_shop"
-            app:destination="@id/shop" />
-        <action
-            android:id="@+id/action_homeFragment_to_news1"
-            app:destination="@id/news1" />
-        <action
-            android:id="@+id/action_homeFragment_to_news2"
-            app:destination="@id/news2" />
-        <action
-            android:id="@+id/action_homeFragment_to_news3"
-            app:destination="@id/news3" />
-        <action
-            android:id="@+id/action_homeFragment_to_mainActivity1"
-            app:destination="@id/mainActivity1" />
-        <action
-            android:id="@+id/action_homeFragment_to_bibliothekAlgemain"
-            app:destination="@id/bibliothekAlgemain" />
-        <action
-            android:id="@+id/action_homeFragment_to_mensaAlgemain"
-            app:destination="@id/mensaAlgemain" />
-        <action
-            android:id="@+id/action_homeFragment_to_studentenwerk1"
-            app:destination="@id/studentenwerk1" />
-        <action
-            android:id="@+id/action_homeFragment_to_fakultaten"
-            app:destination="@id/fakultaten" />
         <action
             android:id="@+id/action_homeFragment_to_home_to_web2"
             app:destination="@id/home_to_web2" />
@@ -127,11 +85,6 @@
             android:id="@+id/action_searchFragment_to_software"
             app:destination="@id/software" />
     </fragment>
-    <activity
-        android:id="@+id/lsf2"
-        android:name="com.codinginflow.LMUapp.lsf"
-        android:label="fragment_lsf"
-        tools:layout="@layout/fragment_lsf" />
     <fragment
         android:id="@+id/accountFragment"
         android:name="com.codinginflow.LMUapp.AccountFragment"
@@ -145,25 +98,6 @@
         android:id="@+id/fieldFragment"
         android:name="com.codinginflow.LMUapp.FieldFragment"
         android:label="FieldFragment" />
-    <activity
-        android:id="@+id/uni2work"
-        android:name="com.codinginflow.LMUapp.uni2work"
-        android:label="uni2work" />
-    <activity
-        android:id="@+id/moodle"
-        android:name="com.codinginflow.LMUapp.moodle"
-        android:label="fragment_moodle"
-        tools:layout="@layout/fragment_moodle" />
-    <activity
-        android:id="@+id/raumfinder"
-        android:name="com.codinginflow.LMUapp.raumfinder"
-        android:label="fragment_raumfinder"
-        tools:layout="@layout/fragment_raumfinder" />
-    <activity
-        android:id="@+id/lmuseite"
-        android:name="com.codinginflow.LMUapp.lmuseite"
-        android:label="fragment_lmuseite"
-        tools:layout="@layout/fragment_lmuseite" />
     <fragment
         android:id="@+id/friesten"
         android:name="com.codinginflow.LMUapp.Friesten"
@@ -182,46 +116,6 @@
             android:id="@+id/action_anforderungen_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
-    <activity
-        android:id="@+id/shop"
-        android:name="com.codinginflow.LMUapp.shop"
-        android:label="fragment_shop"
-        tools:layout="@layout/fragment_shop" />
-    <activity
-        android:id="@+id/news1"
-        android:name="com.codinginflow.LMUapp.news1"
-        android:label="fragment_news1"
-        tools:layout="@layout/fragment_news1" />
-    <activity
-        android:id="@+id/news2"
-        android:name="com.codinginflow.LMUapp.news2"
-        android:label="fragment_news2"
-        tools:layout="@layout/fragment_news2" />
-    <activity
-        android:id="@+id/news3"
-        android:name="com.codinginflow.LMUapp.news3"
-        android:label="fragment_news3"
-        tools:layout="@layout/fragment_news3" />
-    <activity
-        android:id="@+id/mainActivity1"
-        android:name="com.codinginflow.LMUapp.MainActivity1"
-        android:label="MainActivity1" />
-    <activity
-        android:id="@+id/bibliothekAlgemain"
-        android:name="com.codinginflow.LMUapp.BibliothekAlgemain"
-        android:label="BibliothekAlgemain" />
-    <activity
-        android:id="@+id/mensaAlgemain"
-        android:name="com.codinginflow.LMUapp.MensaAlgemain"
-        android:label="MensaAlgemain" />
-    <activity
-        android:id="@+id/studentenwerk1"
-        android:name="com.codinginflow.LMUapp.studentenwerk1"
-        android:label="studentenwerk1" />
-    <activity
-        android:id="@+id/fakultaten"
-        android:name="com.codinginflow.LMUapp.fakultaten"
-        android:label="fakultaten" />
     <activity
         android:id="@+id/search_to_web"
         android:name="com.codinginflow.LMUapp.search_to_web"
