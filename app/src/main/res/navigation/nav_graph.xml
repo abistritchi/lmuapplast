@@ -58,6 +58,9 @@
         <action
             android:id="@+id/action_homeFragment_to_fakultaten"
             app:destination="@id/fakultaten" />
+        <action
+            android:id="@+id/action_homeFragment_to_home_to_web2"
+            app:destination="@id/home_to_web2" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -241,6 +244,10 @@
         android:id="@+id/plan_to_web2"
         android:name="com.codinginflow.LMUapp.plan_to_web"
         android:label="plan_to_web" />
+    <activity
+        android:id="@+id/plan_to_web"
+        android:name="com.codinginflow.LMUapp.plan_to_web"
+        android:label="plan_to_web" />
     <fragment
         android:id="@+id/auswahl_von_vorlesungen"
         android:name="com.codinginflow.LMUapp.auswahl_von_vorlesungen"
@@ -279,4 +286,9 @@
             android:id="@+id/action_tutoriumEIP_to_site_exemple"
             app:destination="@id/site_exemple" />
     </fragment>
+    <activity
+        android:id="@+id/home_to_web2"
+        android:name="com.codinginflow.LMUapp.home_to_web"
+        android:label="fragment_home_to_web"
+        tools:layout="@layout/fragment_home_to_web" />
 </navigation>

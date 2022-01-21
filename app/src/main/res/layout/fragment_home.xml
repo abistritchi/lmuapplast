@@ -8,11 +8,6 @@
     android:orientation="vertical">
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="176dp"
-        android:background="@drawable/weather" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -23,6 +18,13 @@
             android:layout_marginLeft="13dp"
             android:orientation="vertical" >
 
+
+            <ImageButton
+                android:id="@+id/button_weather_home"
+                android:layout_width="369dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/weather" />
 
             <TextView
                 android:layout_width="150dp"
