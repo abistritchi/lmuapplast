@@ -64,6 +64,9 @@
         <action
             android:id="@+id/action_welcomeFragment_to_accountFragment"
             app:destination="@id/accountFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_search_to_web"
+            app:destination="@id/search_to_web" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"

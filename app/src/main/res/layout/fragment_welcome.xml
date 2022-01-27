@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Successfully logged in!"
+        android:text="Benutzerkonto"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
@@ -31,11 +31,130 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="Your LMU balance is 24,56 eur.\nYou can top it up in StudentenWerk terminals at any canteen" />
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Your LMU balance is"
+                    />
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="24,56 eur."
+                    />
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="LMU-Benutzername:"
+                    />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="Maximillian.Mustermann"
+                    />
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="LMU-E-Mail-Adresse:"
+                    />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:text="Maximillian.Mustermann@campus.lmu.de"
+                    />
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="LMU-E-Mail-Adresse:"
+                    />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="3"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="Maximillian.Mustermann@mail.com"
+                    />
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="LMU-ID:"
+                    />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="4"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="123456789ABCDEF"
+                    />
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="LRZ-Kennung:"
+                    />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="5"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:text="lrzid12345"
+                    />
+            </GridLayout>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -60,6 +179,63 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@drawable/covid" />
+
+            <Button
+                android:id="@+id/button_lmucard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LMUcard"/>
+            <Button
+
+                android:id="@+id/button_passwort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passwort andern"/>
+            <Button
+                android:id="@+id/button_sicherheits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sicherheitsfrage"/>
+            <Button
+                android:id="@+id/button_infodienst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Infodienst der Lmu"/>
+            <Button
+                android:id="@+id/button_teams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LMU-Teams"/>
+            <Button
+                android:id="@+id/button_berechtigungen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berechtigungen anzeigen"/>
+            <Button
+                android:id="@+id/button_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-Mail-Einstellungen"/>
+            <Button
+                android:id="@+id/button_microsift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Microsoft 365"/>
+            <Button
+                android:id="@+id/button_confluence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LMU-Confluence"/>
+            <Button
+                android:id="@+id/button_lmu_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LMU-Chat"/>
+            <Button
+                android:id="@+id/button_adobeid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LMU-AdobeID"/>
         </LinearLayout>
     </ScrollView>
 

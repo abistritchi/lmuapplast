@@ -349,10 +349,21 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
             val action = SearchFragmentDirections.actionSearchFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
-        button_to_sowtfare.setOnClickListener{
-            val action = SearchFragmentDirections.actionSearchFragmentToSoftware()
+        button_to_sowtfare_weiter.setOnClickListener{
+            web_adress = "https://www.it-servicedesk.uni-muenchen.de/it-angebote/weitere_angebote/index.html"
+            val action = SearchFragmentDirections.actionSearchFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
+        button_to_sowtfare.setOnClickListener{
+            web_adress = "https://www.it-servicedesk.uni-muenchen.de/it-angebote/index.html"
+            val action = SearchFragmentDirections.actionSearchFragmentToSearchToWeb()
+            findNavController().navigate(action)
+        }
+
+        //button_to_sowtfare.setOnClickListener{
+        //    val action = SearchFragmentDirections.actionSearchFragmentToSoftware()
+        //    findNavController().navigate(action)
+        //}
 
 
 
