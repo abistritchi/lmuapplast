@@ -25,57 +25,57 @@ class WelcomeFragment : Fragment(R.layout.fragment_welcome) {
         }
         button_lmucard.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/LMUcard/manage/dashboard"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_passwort.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/password-change"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_sicherheits.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/recovery-password"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_infodienst.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/lmu-info"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_teams.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/lmu-teams"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_berechtigungen.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/permissions"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_email.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/mailbox"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_microsift.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/microsoft365"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_confluence.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/confluence"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_lmu_chat.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/rocket-chat"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
         button_adobeid.setOnClickListener {
             SearchFragment.web_adress = "https://www.portal.uni-muenchen.de/benutzerkonto/#!/adobe"
-            val action = FieldFragmentDirections.actionFieldFragmentToHomeToWeb2()
+            val action = WelcomeFragmentDirections.actionWelcomeFragmentToSearchToWeb()
             findNavController().navigate(action)
         }
     }
