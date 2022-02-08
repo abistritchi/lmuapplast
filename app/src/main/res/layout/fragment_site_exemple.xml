@@ -4,44 +4,72 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".site_exemple">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
-
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
         android:text="Einfuhrung in Progrmmierung" />
 
     <RatingBar
         android:id="@+id/rakingEIP"
+        android:numStars = "5"
+        android:rating   = "4.6"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:theme="@style/RatingBar"
-        android:layout_marginLeft="200dp" />
+        android:layout_marginLeft="150dp" />
 
 
     <Button
         android:id="@+id/button_hussman"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:background="#00FFFFFF"
+        android:layout_marginTop="33dp"
         android:text="Prof. Hußmann" />
 
+    <RatingBar
+        android:id="@+id/rakingHussman"
+        android:numStars = "5"
+        android:rating   = "5"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RatingBar"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"/>
 
 
     <Button
         android:id="@+id/button_eip_to_tutorium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="75dp"
+        android:background="#5600883A"
         android:text="Tutorium"/>
 
-    <RatingBar
-        android:id="@+id/rakingHussman"
+
+
+    <ImageView
+        android:layout_marginTop="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hussman"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:theme="@style/RatingBar"
-        android:layout_marginTop="70dp"
-        android:layout_marginLeft="200dp"/>
+        android:layout_height="750dp"/>
+
+        </FrameLayout>
+    </ScrollView>
 
 
 
