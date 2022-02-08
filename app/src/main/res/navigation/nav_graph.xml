@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_homeFragment_to_bibliothekAlgemain2"
             app:destination="@id/bibliothekAlgemain2" />
+        <action
+            android:id="@+id/action_homeFragment_to_raumfinder"
+            app:destination="@id/raumfinder" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -216,4 +219,8 @@
         android:name="com.codinginflow.LMUapp.BibliothekAlgemain"
         android:label="biblothek_algemain"
         tools:layout="@layout/biblothek_algemain" />
+    <activity
+        android:id="@+id/raumfinder"
+        android:name="com.codinginflow.LMUapp.raumfinder"
+        android:label="raumfinder" />
 </navigation>

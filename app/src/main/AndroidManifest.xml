@@ -47,6 +47,7 @@
     <activity android:name="com.codinginflow.LMUapp.search_to_web"/>
     <activity android:name="com.codinginflow.LMUapp.plan_to_web"/>
     <activity android:name=".mail"/>
+    <activity android:name=".raumfinder"/>
     <activity android:name=".home_to_web"/>
 
 </application>

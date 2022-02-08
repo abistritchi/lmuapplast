@@ -17,7 +17,7 @@
         android:title="Raumfinder"/>
 
     <item
-        android:id="@+id/bibliothekAlgemain"
+        android:id="@+id/bibliothekAlgemain2"
         android:icon="@android:drawable/ic_menu_sort_alphabetically"
         android:title="Bibliothek" />
 
