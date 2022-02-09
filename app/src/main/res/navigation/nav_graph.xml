@@ -223,4 +223,9 @@
         android:id="@+id/raumfinder"
         android:name="com.codinginflow.LMUapp.raumfinder"
         android:label="raumfinder" />
+    <fragment
+        android:id="@+id/book_info"
+        android:name="com.codinginflow.LMUapp.book_info"
+        android:label="fragment_book_info"
+        tools:layout="@layout/fragment_book_info" />
 </navigation>

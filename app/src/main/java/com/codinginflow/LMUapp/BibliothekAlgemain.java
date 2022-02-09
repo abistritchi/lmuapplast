@@ -29,19 +29,6 @@ public class BibliothekAlgemain extends AppCompatActivity implements OnMapReadyC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.biblothek_algemain);
         setUpOnclickListener1();
-        
-
-        // Get a handle to the fragment and register the callback.
-        //SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-        //        .findFragmentById(R.id.map);
-        //mapFragment.getMapAsync(this);
-
-
-
-
-
-
-
     }
 
 
@@ -71,8 +58,6 @@ public class BibliothekAlgemain extends AppCompatActivity implements OnMapReadyC
                 startActivity(showDetail);
             }
         });
-
-
     }
 
 

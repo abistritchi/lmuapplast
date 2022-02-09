@@ -55,7 +55,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:textColor="@color/colorText"
-                android:text="Your favorite list" />
+                android:text="Bücherrückgabe " />
 
             <HorizontalScrollView
                 android:layout_width="wrap_content"
@@ -66,21 +66,21 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <ImageView
-                        android:src="@drawable/book_sample"
+                    <ImageButton
+                        android:id="@+id/button_book_statistik"
+                        android:src="@drawable/statistik"
+                        android:scaleType="fitXY"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
-                    <ImageView
+                    <ImageButton
+                        android:id="@+id/button_book_kotlin"
                         android:layout_marginLeft="15dp"
-                        android:src="@drawable/book_sample"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/kotlin"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
-                    <ImageView
-                        android:layout_marginLeft="15dp"
-                        android:src="@drawable/book_sample"
-                        android:layout_width="140dp"
-                        android:layout_height="200dp"/>
-                    <ImageView
+                    <ImageButton
+                        android:id="@+id/button_book_sample"
                         android:layout_marginLeft="15dp"
                         android:src="@drawable/book_sample"
                         android:layout_width="140dp"
@@ -108,17 +108,17 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/book_sample"
+                        android:src="@drawable/mmi1"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
                     <ImageView
                         android:layout_marginLeft="15dp"
-                        android:src="@drawable/book_sample"
+                        android:src="@drawable/design1"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
                     <ImageView
                         android:layout_marginLeft="15dp"
-                        android:src="@drawable/book_sample"
+                        android:src="@drawable/design2"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
                     <ImageView
@@ -149,17 +149,17 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/book_sample"
+                        android:src="@drawable/analysis2"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
                     <ImageView
                         android:layout_marginLeft="15dp"
-                        android:src="@drawable/book_sample"
+                        android:src="@drawable/linearealg2"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
                     <ImageView
                         android:layout_marginLeft="15dp"
-                        android:src="@drawable/book_sample"
+                        android:src="@drawable/numeric"
                         android:layout_width="140dp"
                         android:layout_height="200dp"/>
                     <ImageView
