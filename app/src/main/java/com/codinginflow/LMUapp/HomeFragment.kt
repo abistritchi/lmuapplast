@@ -21,16 +21,15 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             override fun onTick(millisUntilFinished: Long) {
                 val s = millisUntilFinished/5000
                 if (button_weather_home!=null){
-                    if ((s % 10).mod(2)!=0){
+                    if ((s % 20).mod(2)!=0){
                         button_weather_home.setImageResource(R.drawable.weather)
                         SearchFragment.web_adress = "https://www.accuweather.com/en/de/munich/80331/weather-forecast/178086"
                     }
-                    if ((s % 10).mod(2)==0) {
+                    if ((s % 20).mod(2)==0) {
                         button_weather_home.setImageResource(R.drawable.lmu_building)
                         SearchFragment.web_adress = "https://www.lmu.de/de/index.html"
                     }
                 }
-
 
             }
 

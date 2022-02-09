@@ -35,7 +35,7 @@
 
             <Button
                 android:id="@+id/button_uni2work"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:background="@color/colorButton"
                 android:textColor="@color/colorText"
@@ -43,7 +43,7 @@
 
             <Button
                 android:id="@+id/button_lsf"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="200dp"
                 android:layout_marginTop="-70dp"
@@ -52,7 +52,7 @@
                 android:text="lsf" />
             <Button
                 android:id="@+id/button_moodle"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorButton"
@@ -68,7 +68,7 @@
 
             <Button
                 android:id="@+id/button_mensa"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:background="@color/colorButton"
                 android:textColor="@color/colorText"
@@ -76,7 +76,7 @@
 
             <Button
                 android:id="@+id/button_raumfinder"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="200dp"
                 android:layout_marginTop="-70dp"
@@ -86,7 +86,7 @@
 
             <Button
                 android:id="@+id/button_bibliothek"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorButton"
@@ -95,7 +95,7 @@
 
             <Button
                 android:id="@+id/button_studentenwerk"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="200dp"
                 android:layout_marginTop="-70dp"
@@ -105,7 +105,7 @@
 
             <Button
                 android:id="@+id/button_lmuseite"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorButton"
@@ -114,7 +114,7 @@
 
             <Button
                 android:id="@+id/button_friesten"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="200dp"
                 android:layout_marginTop="-70dp"
@@ -124,7 +124,7 @@
 
             <Button
                 android:id="@+id/button_anforderungen"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorButton"
@@ -133,7 +133,7 @@
 
             <Button
                 android:id="@+id/button_shop"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="200dp"
                 android:layout_marginTop="-70dp"
@@ -143,7 +143,7 @@
 
             <Button
                 android:id="@+id/button_fakultaten"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorButton"
@@ -152,7 +152,7 @@
 
             <Button
                 android:id="@+id/button_HomeMap"
-                android:layout_width="180dp"
+                android:layout_width="170dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="15dp"
                 android:background="@color/colorButton"
