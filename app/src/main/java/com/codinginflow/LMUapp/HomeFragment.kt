@@ -85,7 +85,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         button_friesten.setOnClickListener {
             SearchFragment.web_adress = "https://www.lmu.de/de/studium/internationale-vollzeit-studierende/fristen-und-termine/index.html"
-            val action = HomeFragmentDirections.actionHomeFragmentToFriesten()
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
