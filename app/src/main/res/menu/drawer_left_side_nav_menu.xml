@@ -17,7 +17,7 @@
         android:title="Raumfinder"/>
 
     <item
-        android:id="@+id/bibliothekAlgemain2"
+        android:id="@+id/biblio2"
         android:icon="@android:drawable/ic_menu_sort_alphabetically"
         android:title="Bibliothek" />
 
@@ -35,7 +35,7 @@
     <item
         android:id="@+id/fieldFragment"
         android:icon="@drawable/ic_baseline_feedback_24"
-        android:title="@string/bottom_field"/>
+        android:title="LMU - Feed"/>
 
 
     <item

@@ -26,11 +26,11 @@
             android:id="@+id/action_homeFragment_to_mensaAlgemain2"
             app:destination="@id/mensaAlgemain2" />
         <action
-            android:id="@+id/action_homeFragment_to_bibliothekAlgemain2"
-            app:destination="@id/bibliothekAlgemain2" />
-        <action
             android:id="@+id/action_homeFragment_to_raumfinder"
             app:destination="@id/raumfinder" />
+        <action
+            android:id="@+id/action_homeFragment_to_biblio2"
+            app:destination="@id/biblio2" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -215,11 +215,6 @@
         android:label="mensa_algemain"
         tools:layout="@layout/mensa_algemain" />
     <activity
-        android:id="@+id/bibliothekAlgemain2"
-        android:name="com.codinginflow.LMUapp.BibliothekAlgemain"
-        android:label="biblothek_algemain"
-        tools:layout="@layout/biblothek_algemain" />
-    <activity
         android:id="@+id/raumfinder"
         android:name="com.codinginflow.LMUapp.raumfinder"
         android:label="raumfinder" />
@@ -228,4 +223,36 @@
         android:name="com.codinginflow.LMUapp.book_info"
         android:label="fragment_book_info"
         tools:layout="@layout/fragment_book_info" />
+    <fragment
+        android:id="@+id/biblio2"
+        android:name="com.codinginflow.LMUapp.biblio2"
+        android:label="biblio2" >
+        <action
+            android:id="@+id/action_biblio2_to_home_to_web2"
+            app:destination="@id/home_to_web2" />
+        <action
+            android:id="@+id/action_biblio2_to_book_mm12"
+            app:destination="@id/book_mm12" />
+        <action
+            android:id="@+id/action_biblio2_to_book_2"
+            app:destination="@id/book_2" />
+        <action
+            android:id="@+id/action_biblio2_to_book_3"
+            app:destination="@id/book_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/book_mm12"
+        android:name="com.codinginflow.LMUapp.book_mm1"
+        android:label="fragment_book_mm1"
+        tools:layout="@layout/fragment_book_mm1" />
+    <fragment
+        android:id="@+id/book_2"
+        android:name="com.codinginflow.LMUapp.book_2"
+        android:label="fragment_book_2"
+        tools:layout="@layout/fragment_book_2" />
+    <fragment
+        android:id="@+id/book_3"
+        android:name="com.codinginflow.LMUapp.book_3"
+        android:label="fragment_book_3"
+        tools:layout="@layout/fragment_book_3" />
 </navigation>

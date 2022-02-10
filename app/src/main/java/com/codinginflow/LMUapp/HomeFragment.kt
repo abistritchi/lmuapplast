@@ -65,7 +65,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             findNavController().navigate(action)
         }
         button_bibliothek.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToBibliothekAlgemain2()
+            val action = HomeFragmentDirections.actionHomeFragmentToBiblio2()
             findNavController().navigate(action)
         }
         button_mensa.setOnClickListener {
@@ -85,7 +85,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         button_friesten.setOnClickListener {
             SearchFragment.web_adress = "https://www.lmu.de/de/studium/internationale-vollzeit-studierende/fristen-und-termine/index.html"
-            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
+            val action = HomeFragmentDirections.actionHomeFragmentToFriesten()
             findNavController().navigate(action)
         }
 
@@ -108,11 +108,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
 
 
-
         button_weather_home.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
+
 
 
     }
