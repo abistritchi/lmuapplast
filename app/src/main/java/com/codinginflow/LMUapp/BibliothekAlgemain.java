@@ -58,6 +58,8 @@ public class BibliothekAlgemain extends AppCompatActivity implements OnMapReadyC
                 startActivity(showDetail);
             }
         });
+
+
     }
 
 

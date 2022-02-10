@@ -8,7 +8,6 @@ import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_search.*
 import android.os.CountDownTimer
 import android.widget.TextView
-import com.codinginflow.LMUapp.databinding.FragmentHomeToWebBinding
 import kotlin.system.measureTimeMillis
 
 
@@ -85,13 +84,14 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
 
         button_friesten.setOnClickListener {
-            SearchFragment.web_adress = "https://www.lmu.de/de/die-lmu/struktur/fakultaeten/index.html"
-            val action = HomeFragmentDirections.actionHomeFragmentToFriesten()
+            SearchFragment.web_adress = "https://www.lmu.de/de/studium/internationale-vollzeit-studierende/fristen-und-termine/index.html"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
 
         button_anforderungen.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToAnforderungen()
+            SearchFragment.web_adress = "https://www.lmu.de/de/studium/internationale-vollzeit-studierende/voraussetzungen/index.html"
+            val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
         button_shop.setOnClickListener {
@@ -113,12 +113,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             val action = HomeFragmentDirections.actionHomeFragmentToHomeToWeb2()
             findNavController().navigate(action)
         }
-
-        button_HomeMap.setOnClickListener {
-            val action = HomeFragmentDirections.actionHomeFragmentToMapsFragment()
-            findNavController().navigate(action)
-        }
-
 
 
     }

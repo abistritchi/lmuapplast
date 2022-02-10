@@ -129,7 +129,7 @@
                 android:layout_marginTop="15dp"
                 android:background="@color/colorButton"
                 android:textColor="@color/colorText"
-                android:text="anforderungen" />
+                android:text="Voraussetzungen" />
 
             <Button
                 android:id="@+id/button_shop"
@@ -149,15 +149,6 @@
                 android:background="@color/colorButton"
                 android:textColor="@color/colorText"
                 android:text="Fakultaten" />
-
-            <Button
-                android:id="@+id/button_HomeMap"
-                android:layout_width="170dp"
-                android:layout_height="70dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/colorButton"
-                android:textColor="@color/colorText"
-                android:text="Map" />
 
 
         </LinearLayout>
